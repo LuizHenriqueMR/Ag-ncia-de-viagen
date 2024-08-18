@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1A1D1D;
+}
+
+
+header {
+    background: #6803FF;
+    color: #FF5303;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50xp;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.service {
+    margin-bottom: 1.5rem;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.flex-container img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.galeria {
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ margin-bottom: 20px;
+}
+
+.preco {
+   flex: 1;
+   min-width: 200px;
+   text-align: center;
+}
+
+.p_destacado {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    background-color: #249CD3;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.corpo {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+.fundo {
+     padding: 20px;
+     background: #FC7E2F;
+     margin-top: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+.conf1 {
+        margin-bottom: 20px;
+        }
+.conf1 img {
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+        }
+
+.conf1 h3 {
+        margin-top: 10px;
+        color: #555;
+        }
+.conf1 ul {
+       list-style-type: disc;
+      padding-left: 20px;
+  }
+
+h2 {
+      color: #333;
+  }
+
+.cb2{
+    background: red;
+    color: blueviolet;
+    padding: 1rem 0;
+}
